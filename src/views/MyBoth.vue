@@ -22,65 +22,7 @@ export default {
 }
 </script>
 <style>
-/* ul {
-    width: 100%;
-    height: 1000px;
-}
-
-li {
-    width: 327px;
-    margin-left: 25px;
-    height: 68px;
-    margin-top: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-li .img1 {
-    width: 68px;
-    height: 68px;
-    border-radius: 15px;
-}
-
-.center {
-    margin-left: 20px;
-    width: 211px;
-    height: 52px;
-    margin-top: 8px;
-}
-
-.right {
-    width: 48px;
-    height: 48px;
-    background: rgba(255, 230, 148, 1);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.right img {
-    width: 18px;
-}
-
-.name {
-    font-size: 12px;
-    font-weight: 700;
-    width: 180px;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-
-.price {
-
-    font-size: 16px;
-    font-weight: 700;
-    position: absolute;
-    bottom: 8px;
-} */
-
+    
 
 ul {
     width: 100%;
@@ -88,8 +30,8 @@ ul {
 }
 
 li {
-    width: 325px;
-    margin-left: 25px;
+    width: 327px;
+    margin-left: 26px;
     height: 68px;
     margin-top: 20px;
     display: flex;
@@ -104,8 +46,10 @@ li .img1 {
 }
 
 .center {
-    margin-left: 20px;
-    width: 200px;
+    /* margin-left: 20px; */
+    padding-left: 24px;
+    box-sizing: border-box;
+    width: 180px;
     height: 52px;
     margin-top: 8px;
     position: relative;
@@ -128,7 +72,7 @@ li .img1 {
 .name {
     font-size: 12px;
     font-weight: 700;
-    width: 198px;
+    width: 175px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
